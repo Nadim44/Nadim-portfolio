@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const menuItems = <React.Fragment>
         <li><Link to='/'>Home</Link></li>
+        <li><a href="https://drive.google.com/file/d/1KqJ4jTI_ZSmbKtnOsJ3byXnCc7blcIRE/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li><Link to='/contact'>Contact me</Link></li>
         <li><Link to='/'>About</Link></li>
     </React.Fragment>
