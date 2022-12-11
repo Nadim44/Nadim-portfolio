@@ -43,16 +43,18 @@ const Project1 = () => {
                     </div>
                 </div>
             </div>
-            <div className='my-2 bg-slate-300 rounded-lg'>
+            <div className='my-2 bg-slate-200 rounded-lg'>
                 <h2 className='pt-4 font-semibold text-2xl mx-4'>Features:</h2>
-                <div className='mx-6'>
-                    <p>● 3 different login system (Admin/Buyer/Seller)</p>
-                    <p>● Firebase Authentication</p>
-                    <p>● JWT security implement</p>
+                <div className='mx-6 '>
+                    <p>● 3 different login system. (Admin/Buyer/Seller)</p>
+                    <p>● Firebase Authentication.</p>
+                    <p>● JWT security implement.</p>
+                    <p>● Easy payment system.</p>
+                    <p>● Many product added.</p>
                 </div>
                 <h2 className='mx-4'><span className='font-semibold text-2xl'>Link:</span> <span className='text-blue-600 font-bold text-2xl'><a href="https://products-resale-e5dcd.firebaseapp.com/" target="_blank" rel="noopener noreferrer">Live Website</a></span></h2>
                 <p className='mx-4 font-semibold text-xl pb-3'>Github repository: <span className='text-blue-600'><a href="https://github.com/Nadim44/products-resale-client-repo-12" target="_blank" rel="noopener noreferrer">Client-site</a></span> | <span className='text-blue-600'><a href="https://github.com/Nadim44/products-resale-server-repo-12" target="_blank" rel="noopener noreferrer">Server-site</a></span></p>
-                <p className='mx-3'><span className='font-bold'>Technologies:</span> Tailwinds, DaisyUI, MongoDB, Firebase, JWT, React
+                <p className='mx-3 pb-4'><span className='font-bold text-xl'>Technologies:</span> Tailwinds, DaisyUI, MongoDB, Firebase, JWT, React
                     query,Stripe Payment.</p>
             </div>
         </div>

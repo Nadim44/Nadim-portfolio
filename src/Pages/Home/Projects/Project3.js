@@ -41,15 +41,18 @@ const Project3 = () => {
                     </div>
                 </div>
             </div>
-            <div className='my-6 bg-slate-300 rounded-lg'>
+            <div className='my-6 bg-slate-200 rounded-lg'>
                 <h2 className='mt-3 pt-4 font-semibold text-2xl mx-4'>Features:</h2>
                 <div className='mx-6'>
-                    <p>● Daily learning platform</p>
-                    <p>● Implement daily routine</p>
+                    <p>● Daily learning platform.</p>
+                    <p>● Implement daily routine.</p>
+                    <p>● Easy calculate time.</p>
+                    <p>● Many subject option.</p>
+                    <p>● See activity completed.</p>
                 </div>
                 <h2 className='mx-4'><span className='font-semibold text-2xl'>Link:</span> <span className='text-blue-600 font-bold text-2xl'><a href="https://dancing-chimera-0c5074.netlify.app/" target="_blank" rel="noopener noreferrer">Live Website</a></span></h2>
                 <p className='mx-4 font-semibold text-xl pb-3'>Github repository: <span className='text-blue-600'><a href="https://github.com/Nadim44/learning-platform-9" target="_blank" rel="noopener noreferrer">Client-site</a></span></p>
-                <p className='mx-3'><span className='font-bold'>Technologies:</span> Tailwinds, DaisyUI, Netlify, Javascript, React.</p>
+                <p className='mx-3 pb-4'><span className='font-bold text-xl'>Technologies:</span> Tailwinds, DaisyUI, Netlify, Javascript, React.</p>
             </div>
         </div>
     );

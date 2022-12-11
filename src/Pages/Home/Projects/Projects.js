@@ -18,7 +18,7 @@ const Projects = () => {
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure><img src={img2} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title text-orange-600 font-bold">Reselling product website</h2>
+                        <h2 className="card-title text-orange-600 font-bold">Reselling Product</h2>
                         <p>It is a Reselling product website. When we need used phone buy or sell, we can buy or sell phone in this website.</p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary"><Link to='/project1'>Details</Link></button>
@@ -28,8 +28,8 @@ const Projects = () => {
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure><img src={img5} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title text-orange-600 font-bold">Course information website</h2>
-                        <p>It is a Course information website.  </p>
+                        <h2 className="card-title text-orange-600 font-bold">Learning Platform</h2>
+                        <p>It is a Course information website. We provide some course. If you need course information, you must be visit this website. </p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary"><Link to='/project2'>Details</Link></button>
                         </div>
@@ -38,8 +38,8 @@ const Projects = () => {
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure><img src={img9} alt="Shoes" /></figure>
                     <div className="card-body">
-                        <h2 className="card-title text-orange-600 font-bold">Learning Platform website</h2>
-                        <p>It is a Learning Platform website.</p>
+                        <h2 className="card-title text-orange-600 font-bold">Calculate Daily Routine </h2>
+                        <p>It is a daily routine website. When we set our daily routine, you must be visit this website. </p>
                         <div className="card-actions justify-end">
                             <button className="btn btn-primary"><Link to='/project3'>Details</Link></button>
                         </div>
