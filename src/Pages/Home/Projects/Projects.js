@@ -1,16 +1,51 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Project1 from './Project1';
 import Project2 from './Project2';
 import Project3 from './Project3';
+import img2 from '../../../images/img2.PNG'
+import img5 from '../../../images/img5.PNG'
+import img9 from '../../../images/img9.PNG'
 
 const Projects = () => {
     return (
         <div className='mt-6'>
-            <h1 className='font-bold text-5xl mx-auto text-center'>Projects</h1>
-            <div>
-                <Project1></Project1>
+            <h1 className='font-bold text-5xl mx-auto text-center text-blue-600 mb-6'>Projects</h1>
+            {/* <Project1></Project1>
                 <Project2></Project2>
-                <Project3></Project3>
+                <Project3></Project3> */}
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-3 p-4 '>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src={img2} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-orange-600 font-bold">Reselling product website</h2>
+                        <p>It is a Reselling product website. When we need used phone buy or sell, we can buy or sell phone in this website.</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary"><Link to='/project1'>Details</Link></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src={img5} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-orange-600 font-bold">Course information website</h2>
+                        <p>It is a Course information website.  </p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary"><Link to='/project2'>Details</Link></button>
+                        </div>
+                    </div>
+                </div>
+                <div className="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src={img9} alt="Shoes" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title text-orange-600 font-bold">Learning Platform website</h2>
+                        <p>It is a Learning Platform website.</p>
+                        <div className="card-actions justify-end">
+                            <button className="btn btn-primary"><Link to='/project3'>Details</Link></button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

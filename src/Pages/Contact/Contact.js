@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div>
+        <div className=''>
             <h1 className='text-center text-3xl font-bold mb-4'>Contact Form</h1>
             <div>
                 {/* <form method="POST" action="https://formsubmit.co/nadimmahamud661@gmail.com" enctype="multipart/form-data"> */}

@@ -6,7 +6,9 @@ const Navbar = () => {
         <li><Link to='/'>Home</Link></li>
         <li><a href="https://drive.google.com/file/d/1KqJ4jTI_ZSmbKtnOsJ3byXnCc7blcIRE/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></li>
         <li><Link to='/contact'>Contact me</Link></li>
-        <li><Link to='/'>About</Link></li>
+        <li><Link to='/projects'>Projects</Link></li>
+        <li><Link to='/about'>About me</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
     </React.Fragment>
 
     return (
@@ -20,7 +22,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-xl">Nadim Portfolio</Link>
+                <Link to='/' className="btn btn-ghost normal-case text-xl font-bold">Nadim Mahamud Emon</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
